@@ -6,7 +6,13 @@
     <title>NKEngg | HOME</title>
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/progressScrollbar.css">
+    <link rel="stylesheet" href="./styles/cursor.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/bannerslider.css">
+    <link rel="stylesheet" href="./styles/videoplay.css">
+    <link rel="stylesheet" href="./styles/marq.css">
 
 
 
@@ -24,55 +30,326 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 
 
   </head>
   <body>
+
+
     <div class="scrollbar">
       <div class="scrollball"></div>
     </div>
-    <nav></nav>
-    
-    <div class="bsct-main-bottom"></div>
 
-    <div class="copy">
-      <p>Click On The Screen</p>
-      <p>To Explore More !</p>
+    <div id="loader"></div>
+
+    <div id="circle"></div>
+
+    <div class="whatsappdiv">
+      <a href="https://wa.me/919958097798?text=Hello Sir,I need some information regarding your service !!"><ion-icon class="whatsapplogo" name="logo-whatsapp"></ion-icon></a>
     </div>
 
+    <nav></nav>
 
-    <div class="main-body">
-      <div class="slider">
-        <div class="slide-active sl">
-          <img src="./assets/1.jpg" alt="" />
+    <div class="bsct-main-bottom"></div>
+
+
+
+    <div class="slider" id="slider3">
+      <div >
+           <img src="./images/indexbannerimages/1.png" alt="">
+      </div>
+      <div >
+           <img src="./images/indexbannerimages/2.png" alt="">
+      </div>
+      <div>
+           <img src="./images/indexbannerimages/3.png" alt="">
+      </div>
+      <div>
+           <img src="./images/indexbannerimages/4.png" alt="">
+      </div>
+      <i class="left" class="arrows" style="z-index:2; position:absolute;">
+           <svg viewBox="0 0 100 100">
+                <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+           </svg>
+      </i>
+      <i class="right" class="arrows" style="z-index:2; position:absolute;">
+           <svg viewBox="0 0 100 100">
+                <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path>
+           </svg>
+      </i>
+  </div>
+  <section class="marquee">
+    <div class="marquee__inner">
+         <div class="marquee__part">
+           N.K Engineering Dies And Tools.
+           <div class="arrow">
+             <img src="./images/arrow.png" alt="" />
+           </div>
+         </div>
+         <div class="marquee__part">
+           N.K Engineering Dies And Tools.
+           <div class="arrow">
+             <img src="./images/arrow.png" alt="" />
+           </div>
+         </div>
+         <div class="marquee__part">
+           N.K Engineering Dies And Tools.
+           <div class="arrow">
+             <img src="./images/arrow.png" alt="" />
+           </div>
+         </div>
+         <div class="marquee__part">
+           N.K Engineering Dies And Tools.
+           <div class="arrow">
+             <img src="./images/arrow.png" alt="" />
+           </div>
+         </div>
+         <div class="marquee__part">
+           N.K Engineering Dies And Tools.
+           <div class="arrow">
+             <img src="./images/arrow.png" alt="" />
+           </div>
+         </div>
+         <div class="marquee__part">
+           N.K Engineering Dies And Tools.
+           <div class="arrow">
+             <img src="./images/arrow.png" alt="" />
+           </div>
+         </div>
+       </div>
+  </section>
+
+  <section class="aboutcompanyindex">
+    <div class="aboutcompanyindexinner">
+      <div class="aboutcompanyindeximagediv">
+        <img src="./images/factorysetup/mainimage.png" alt="">
+      </div>
+      <div class="aboutcompanyindextextcont">
+        <div class="aboutcompanyindexheading">
+          <h1>Plastic Moulding Machine Manufaturer.</h1>
         </div>
-  
-        <div class="slide-next sl">
-          <div class="slide-next-img">
-            <img src="./assets/2.jpg" alt="" />
+        <div class="aboutcompanyindexpara">
+          <p><b>N.K. Engineering Dies and Tools,</b> located in <b>Gurugram (Haryana, India),</b> we specialize in manufacturing and exporting top-tier plastic injection molding machines. Our systems are expertly designed and constructed under the close supervision of quality inspectors, utilizing state-of-the-art technologies that meet international standards.</p>
+          <p>To guarantee exceptional performance, our products undergo stringent testing by our quality auditors, employing the latest testing instruments. Our clients greatly appreciate our products for their unmatched features, including superior quality, high efficiency, minimal maintenance, seamless operation, ease of installation, and dependability. Moreover, our product range comes in various specifications and is offered at competitive prices.</p>
+        </div>
+        <a href="./blogShortBriefInfocompany.html"><button class="button" style="margin-top: 0;">Read More</button></a>
+      </div>
+    </div>
+  </section>
+
+<div class="increament">
+  <div class="counter-container">
+    <ion-icon class="countericons" name="calendar-number-outline"></ion-icon>
+    <div class="counter" data-target="2003"></div>
+    <span class="counterspan">Found In</span>
+</div>
+
+  <div class="counter-container">
+    <ion-icon class="countericons" name="happy-outline"></ion-icon>
+    <div class="counter" data-target="1500"></div>
+    <span class="counterspan">Happy customer</span>
+  </div>
+
+
+  <div class="counter-container">
+  <ion-icon class="countericons" name="people-outline"></ion-icon>
+    <div class="counter" data-target="200"></div>
+    <span class="counterspan">Employees Count</span>
+</div>
+</div>
+
+<div class="typesmachine">
+  <div class="typesmachineinner">
+    <div class="textpart">
+      <div class="typesmachineheading">
+        <p>Types Of <b>Injection Moulding Machines</b></p>
+      </div>
+    </div>
+    <div class="typesimagediv">
+      <div class="typesmachineleft">
+        <div class="leftcont">
+          <p class="headp">Horizontal Injection</p>
+          <h2 style="margin-bottom: 50px;">Moulding Machine Manufacturer</h2>
+          <p class="textp"><b>N.K. Engineering Dies And Tools</b> is one of the most trusted <b>manufacturers of Horizontal Injection Moulding Machine in India.</b> Established In the year 2003 at Gurugram (Haryana, India), We “N.K. Engg. Dies And Tools” are an eminent name involved in manufacturing, and service providing a flawless quality range of <b>Horizontal Injection Moulding Machine.</b></p>
+        </div>
+      </div>
+      <div class="typesmachineright">
+        <div class="rightcont">
+          <p class="headp">Extruder Type Hydraulic</p>
+          <h2 style="margin-bottom: 50px;">Moulding Machine Manufacturer</h2>
+          <p class="textp"><b>N.K. Engineering Dies And Tools</b> is one of the most trusted <b>manufacturers of Horizontal Injection Moulding Machine in India.</b> Established In the year 1998 at Ahmadabad (Gujarat, India), We “KSB MACHINERY LLP” are an eminent name involved in manufacturing, and service providing a flawless quality range of <b>Extruder Type Hydraulic Moulding Machine.</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div style="width: 100%; height:100vh; background-color:rgb(255, 255, 255);"></div>
+     -->
+
+
+  <div class="video-container">
+    <iframe id="youtube-video" src="https://www.youtube.com/embed/2NvahmDfoM0?si=GTvVa4gnUImyUBFK?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+
+
+    <!-- <div style="width: 100%; height:100vh; background-color:rgb(255, 255, 255);"></div> -->
+
+    <div id="whychooseus">
+      <h1 class="headingwhite">Why Choose Us</h1>
+      <div class="whychooseusinner">
+        <div class="whychooseuscard">
+          <div class="whychoosecardnumber">
+            <h1>01</h1>
+          </div>
+          <div class="image">
+            <img src="./images/icons/icon1.webp" alt="">
+          </div>
+          <div class="whychooseustext">
+            <p class="whychoosehead">2 Decades Of Experience</p>
+            <p class="whychooseustext">We are having Quality 2 Decades of Experice of Supplying best Machinces.</p>
+          </div>
+        </div>
+        <div class="whychooseuscard">
+          <div class="whychoosecardnumber">
+            <h1>02</h1>
+          </div>
+          <div class="image">
+            <img src="./images/icons/icon3.webp" alt="">
+          </div>
+          <div class="whychooseustext">
+            <p class="whychoosehead">Advances Technology</p>
+            <p class="whychooseustext">We believe great product comes from advance machinery and tools that’s why we use latest technology.</p>
+          </div>
+        </div>
+        <div class="whychooseuscard">
+          <div class="whychoosecardnumber">
+            <h1>03</h1>
+          </div>
+          <div class="image">
+            <img src="./images/icons/icon2.webp" alt="">
+          </div>
+          <div class="whychooseustext">
+            <p class="whychoosehead">Quality Raw Material</p>
+            <p class="whychooseustext">Procuring quality raw material is first step of manufacturing world class plastic moulding machinery</p>
+          </div>
+        </div>
+        <div class="whychooseuscard">
+          <div class="whychoosecardnumber">
+            <h1>04</h1>
+          </div>
+          <div class="image">
+            <img src="./images/icons/icon1.webp" alt="">
+          </div>
+          <div class="whychooseustext">
+            <p class="whychoosehead">Experienced Team</p>
+            <p class="whychooseustext">We are having qualified Experienced Management & Technical Team To execute projects.</p>
           </div>
         </div>
       </div>
-  
-      <div class="slider-content">
-        <div class="slider-content-active slcont">
-          <h1>LuminaPad</h1>
-        </div>
-        <div class="slider-content-next slcont">
-          <h1>PulseEar</h1>
-        </div>
+    </div>
+
+    <div class="scroller" data-direction="right" data-speed="slow">
+      <h1 class="heading">Our Clients</h1>
+      <div class="scroller__inner">
+        <img src="./images/logo/1.png" alt="">
+        <img src="./images/logo/2.png" alt="">
+        <img src="./images/logo/3.png" alt="">
+        <img src="./images/logo/4.png" alt="">
+        <img src="./images/logo/5.png" alt="">
+        <img src="./images/logo/6.png" alt="">
+        <img src="./images/logo/7.png" alt="">
+        <img src="./images/logo/8.png" alt="">
+        <img src="./images/logo/9.png" alt="">
+        <img src="./images/logo/10.png" alt="">
+        <img src="./images/logo/11.png" alt="">
+        <img src="./images/logo/12.png" alt="">
       </div>
     </div>
 
-    <div style="width: 100%; height:100vh; background-color:rgb(255, 255, 255);"></div>
+
+    <div class="smallcontactcontainer">
+      <div class="smallcontactmaindiv">
+        <div class="smallcontactleft"><p>
+          The combination of your world-class team with
+          ours is a win-win situation
+          </p></div>
+        <div class="smallcontactright">
+          <a href="./contact.html">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Contact Us</span>
+            </button>
+          </a></div>
+      </div>
+    </div>
 
 
+    <footer></footer>
+
+
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CSSRulePlugin.min.js" integrity="sha512-IxxYrSNXnt/RJlxNX40+7BQL88FLqvdpVpuV9AuvpNH/NFP0L8xA8WLxWTXx6PYExB5R/ktQisp6tIrnLn8xvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./scripts/script.js"></script>
     <script type="module" src="./scripts/componantImport.js"></script>
     <script src="./scripts/progressScrollbar.js"></script>
-    <script src="./gsap/indexslider.js"></script>
+    <script src="./gsap/cursor.js"></script>
+    <script src="./scripts/bannerslider.js"></script>
+    <script src="./scripts/videoplay.js"></script>
+    <script src="./scripts/counterinc.js"></script>
+    <script src="./scripts/ourcustomer.js"></script>
+    <script>
+      let currentScroll = 0;
+      let isScrollingDown = true;
+      let arrows = document.querySelectorAll(".arrow");
+      let tween = gsap
+        .to(".marquee__part", {
+          xPercent: -100,
+          repeat: -1,
+          duration: 5,
+          ease: "linear",
+        })
+        .totalProgress(0.5);
+      gsap.set(".marquee__inner", { xPercent: -50 });
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > currentScroll) {
+          isScrollingDown = true;
+        } else {
+          isScrollingDown = false;
+        }
+        gsap.to(tween, {
+          timeScale: isScrollingDown ? 1 : -1,
+        });
+        arrows.forEach((arrow) => {
+          if (isScrollingDown) {
+            arrow.classList.remove("active");
+          } else {
+            arrow.classList.add("active");
+          }
+        });
+        currentScroll = window.pageYOffset;
+      });
+ </script>
+ <script>
+  var cursor = document.querySelector("#circle");
+// youtubevideo
+var youtubevd = document.querySelector(".video-container");
+youtubevd.addEventListener("mouseenter",()=>{
+  cursor.style.display = "none";
+})
+youtubevd.addEventListener("mouseleave",()=>{
+  cursor.style.display = "block";
+})
+ </script>
   </body>
 </html>

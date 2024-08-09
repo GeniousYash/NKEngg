@@ -1,0 +1,14 @@
+#circle{
+     pointer-events: none;
+     position: fixed;
+     z-index: 99999999999 !important;
+     top: 0;
+     left: 0;
+     transform: translate(-50%, -50%);
+     border-radius: 50%;
+     width: 2vw;
+     height: 2vw;
+     background-color: rgb(255, 255, 255) !important;
+     mix-blend-mode:difference;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}

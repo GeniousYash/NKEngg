@@ -36,7 +36,7 @@ const navbar = ()=>{
                            <div class="menu-item">
                              <div class="menu-item-link">
                                <div class="bg-hover"></div>
-                               <a href="#">Home</a>
+                               <a href="./">Home</a>
                              </div>
                            </div>
                            <div class="menu-item">
@@ -48,25 +48,25 @@ const navbar = ()=>{
                            <div class="menu-item">
                              <div class="menu-item-link">
                                <div class="bg-hover"></div>
-                               <a href="#">Deals In</a>
+                               <a href="./deals.html">Products</a>
                              </div>
                            </div>
                            <div class="menu-item">
                              <div class="menu-item-link">
                                <div class="bg-hover"></div>
-                               <a href="#">Contact Us</a>
+                               <a href="./contact.html">Contact Us</a>
                              </div>
                            </div>
                            <div class="menu-item" id="active">
                              <div class="menu-item-link">
                                <div class="bg-hover"></div>
-                               <a href="#">Gallery</a>
+                               <a href="./gallery.html">Gallery</a>
                              </div>
                            </div>
                            <div class="menu-item">
                              <div class="menu-item-link">
                                <div class="bg-hover"></div>
-                               <a href="./extra.html">Extras</a>
+                               <a href="./blog.html">Blogs</a>
                              </div>
                            </div>
                          </div>

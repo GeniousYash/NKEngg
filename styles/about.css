@@ -5,7 +5,7 @@ img {
    }
    
    h1 {
-     text-transform: uppercase;
+     /* text-transform: uppercase; */
      font-size: 120px;
      font-weight: 400;
      letter-spacing: -4px;
@@ -13,24 +13,42 @@ img {
    
    section.hero {
      width: 100vw;
-     height: 100vh;
-     background: url(../assets/hero.jpg) no-repeat 50% 50%;
+     height: 80vh;
+     background: url(../images/products/image1.JPG) no-repeat 50% 50%;
      background-size: cover;
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items:end ;
+   }
+   section.hero2 {
+     width: 100vw;
+     height: 80vh;
+     background: url(../images/gallery/5.jpg) no-repeat 50% 50%;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items:end ;
    }
    
    .hero h1 {
      font-family: "PP Editorial Old";
      font-weight: lighter;
-     color: #fff;
+     color: #222535;
+     background-color: #ffffffaf;
+     margin-bottom: 10vh;
+   }
+   .hero2 h1 {
+     font-family: "PP Editorial Old";
+     font-weight: lighter;
+     color: #222535;
+     background-color: #ffffffaf;
+     margin-bottom: 10vh;
    }
    
    section.info {
      width: 100vw;
      height: 150vh;
-     background-color: #000;
+     background-color: #181a24;
      color: #fff;
    }
 
@@ -67,7 +85,7 @@ img {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
-     background-color: #000;
+     background-color: #181a24;
      color: #fff;
      margin-top: -20vh;
    }

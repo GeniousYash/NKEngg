@@ -125,3 +125,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // });
   }
 });
+
+
+
+// document.querySelector('a[href="./index.html#whychooseus"]').addEventListener('click', function(e) {
+//   e.preventDefault();
+//   document.querySelector('#whychooseus').scrollIntoView({
+//       behavior: 'smooth'
+//   });
+// });
+
+

@@ -1,0 +1,282 @@
+.banner{
+     width: 100%;
+     /* height: 50vh; */
+     display: flex;
+     flex-direction: column;
+}
+
+.bannerimg{
+     width: 100%;
+     height: 70vh;
+}
+
+.bannerimg img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.mapdiv{
+     width: 100%;
+     height: 80vh;
+}
+
+.mapdiv iframe{
+     width: 100%;
+     height: 100%;
+}
+
+.contactpara{
+     width: 90%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10rem;
+}
+
+.contactpara div{
+     margin: 1.5rem;
+}
+
+.contactpara .ptagdiv{
+     width: 50%;
+     text-align: center;
+     font-size: 22px;
+     font-weight: 500;
+}
+
+
+
+#sectioncontact{
+     width: 70vw;
+     margin: auto;
+     margin-top: 5vh;
+}
+
+.contactrow{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid yellow; */
+}
+
+.contactcolleft{
+     width: 30%;
+     height: 100%;
+     /* border: 2px solid green; */
+}
+
+.contactcolright{
+     width: 70%;
+     height: 100%;
+     /* border: 2px solid red; */
+}
+     
+.contactrow .contactcolright>h1{
+     font-size: 5vw;  
+     font-family: wremena; 
+     font-weight: 200; 
+     padding: 50px 0px; 
+}
+
+.contactrow .contactcolright>h1 span{
+     font-family: inter !important; 
+     font-weight: 400; 
+}
+
+.contactcolleft>p{
+     font-size: 20px;
+}
+
+.contactcolleft>p>span{
+     font-family: inter !important;
+}
+
+.form{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+.form div{
+     width: 100%;
+}
+
+.form div input{
+     background-color: transparent;
+     color: #414141;
+     width: 100%;
+     padding: 10px 5px;
+     font-size: 25px;
+     border: none;
+     border-bottom: 1px solid #414141;
+     outline: none;
+}
+
+.form div input::placeholder{
+     color: #7e7e7e;
+     padding: 5px 5px;
+}
+
+#messagediv textarea{
+     width:100%;
+     outline: none;
+     border: none;
+     padding: 5px 5px;
+     font-size: 25px;
+     background-color: transparent;
+     color: #414141;
+     border-bottom: 1px solid #898989
+}
+
+#messagediv textarea::placeholder{
+     color: #7e7e7e;
+     padding: 5px 5px;
+}
+
+#emailbtn{
+     display: flex;
+     flex-direction: row;
+}
+
+#button{
+     width: 200px;
+     font-size: 25px;
+     color: #262626;
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid #909090;
+     cursor: pointer;
+}
+
+#button:hover{
+     letter-spacing: 2px;
+     transition: all 250ms ease;
+}
+
+
+.addresscontactpage{
+     width: 70vw;
+     height: auto;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20vh;
+}
+
+.addinnerdiv{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+}
+
+.mainadddiv{
+     display: flex;
+     flex-direction: row;
+     font-size: 20px;
+     font-weight: 500;
+     margin-bottom: 20px;
+}
+
+.mainadddiv p:hover{
+     cursor: pointer;
+}
+
+.mainadddiv a{
+     color: #262626;
+     text-decoration: none;
+}
+
+.icons{
+     margin-right: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width:500px){
+     .banner{
+          max-width: 500px !important;
+          min-width: 300px !important;
+          height: auto;
+     }
+     .bannerimg{
+          width: 100% !important;
+          height: 50vh;
+          margin-top: 70px;
+     }
+     .bannerimg img{
+          object-fit: cover;
+     }
+     .mapdiv{
+          width: 100%;
+     }
+     .contactpara{
+          max-width: 500px !important;
+          min-width: 300px !important;
+          margin: 0 !important;
+     }
+     .htagdiv h1{
+          font-size: 25px;
+     }
+     .ptagdiv{
+          width: 90% !important;
+          text-align: justify !important;
+     }
+     .ptagdiv p{
+          font-size: 18px;
+     }
+
+     #sectioncontact{
+          max-width: 500px !important;
+          min-width: 300px !important;
+     }
+     .contactrow{
+          display: flex;
+          flex-direction: column;
+     }
+     .contactrow div{
+          width: 90% !important;
+          margin-left: 10px;
+     }
+     .contactcolright form input{
+          font-size: 18px !important;
+     }
+     .contactcolright form input::placeholder{
+          font-size: 18px !important;
+     }
+     #messagediv #message::placeholder{
+          font-size: 18px !important;
+     }
+     #button{
+          font-size: 18px !important;
+     }
+
+     .addresscontactpage{
+          max-width: 500px !important;
+          min-width: 300px !important;
+     }
+     .addinnerdiv{
+          display: flex;
+          flex-direction: column;
+     }
+     .addinnerdiv div{
+          width: 90% !important;
+          margin-left: 10px;
+     }
+     .contactcolleft p{
+          margin-bottom: 20px;
+     }
+     .contactcolright{
+          margin-top: 10px !important;
+     }
+     .mainadddiv p{
+          font-size: 16px !important;
+     }
+     .icons{
+          font-size: 18px !important;
+     }
+
+
+
+}

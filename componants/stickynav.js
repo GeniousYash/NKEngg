@@ -7,12 +7,12 @@ const stickynav = ()=>{
                </div>
                <div class="nav-links">
                     <ul>
-                         <li><a href="./">Home</a></li>
-                         <li><a href="./about.html">About Us</a></li>
-                         <li><a href="./deals.html">Deals In</a></li>
-                         <li><a href="./contact.html">Contact Us</a></li>
-                         <li><a href="./gallery.html">Gallery</a></li>
-                         <li><a href="./extra.html">Extras</a></li>
+                         <li><a class="nav__link" href="./">Home</a></li>
+                         <li><a class="nav__link" href="./about.html">About Us</a></li>
+                         <li><a class="nav__link" href="./deals.html">Products</a></li>
+                         <li><a class="nav__link" href="./contact.html">Contact Us</a></li>
+                         <li><a class="nav__link" href="./gallery.html">Gallery</a></li>
+                         <li><a class="nav__link" href="./blog.html">Blogs</a></li>
                     </ul>
                </div>
           `

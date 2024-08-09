@@ -9,7 +9,6 @@ body {
      height: 30vh;
      width: 2px;
      border-radius: 2px;
-     /* mix-blend-mode:difference; */
      background: rgb(0, 0, 0);
      z-index: 99999999999;
     }
@@ -23,7 +22,6 @@ body {
      background: rgb(0, 0, 0);
     }
     .scrollbar .scrollball span {
-     /* mix-blend-mode:difference; */
      position: absolute;
      left: 10px;
      top: -4px;

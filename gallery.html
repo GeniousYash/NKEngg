@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NKEngg | HOME</title>
+    <title>NKEngg | GALLERY</title>
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/progressScrollbar.css">
-
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/cursor.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/gallery.css">
 
 
 
@@ -19,8 +22,8 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
     <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
 
@@ -31,18 +34,109 @@
     <div class="scrollbar">
       <div class="scrollball"></div>
     </div>
+
+    <div id="circle"></div>
+
+    <div class="whatsappdiv">
+      <a href="https://wa.me/919958097798?text=Hello Sir,I need some information regarding your service !!"><ion-icon class="whatsapplogo" name="logo-whatsapp"></ion-icon></a>
+    </div>
+
     <nav></nav>
-    
     <div class="bsct-main-bottom"></div>
 
 
-    <div style="width: 100%; height:100vh; background-color:rgb(255, 255, 255);"></div>
+    <h1 class="gallery-heading">Our Moments Captured</h1>
+  
+      <div class="gallery">
+    </div>
+
+  <div id="modal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+          <div class="modal-left">
+              <img id="modal-img" src="" alt="Modal Image">
+          </div>
+          <div class="modal-right">
+              <p id="modal-text"></p>
+              <button class="nav-btn" onclick="prevImage()">&#9664;</button>
+              <button class="nav-btn" onclick="nextImage()">&#9654;</button>
+          </div>
+      </div>
+</div>
 
 
+
+<div id="container">
+  <h1 class="heading">Our Video Gallery</h1>
+  <div class="horizontal-slider" >
+    <div class="video-wrap">
+      <div class="video">
+        <video controls src="./video/meeting/MVI_8906.MP4"></video>
+      </div>
+    </div>
+    <div class="video-wrap">
+      <div class="video">
+        <video controls src="./video/meeting/MVI_8908.MP4"></video>
+      </div>
+    </div>
+    <div class="video-wrap">
+      <div class="video">
+        <video controls src="./video/meeting/MVI_8909.MP4"></video>
+      </div>
+    </div>
+    <div class="video-wrap">
+      <div class="video">
+        <video controls src="./video/meeting/MVI_8906.MP4"></video>
+      </div>
+    </div>
+    <div class="video-wrap">
+      <div class="video">
+        <video controls src="./video/meeting/MVI_8908.MP4"></video>
+      </div>
+    </div>
+    <div class="video-wrap">
+      <div class="video">
+    <video controls src="./video/meeting/MVI_8909.MP4"></video>
+  </div>
+</div>
+    <div class="video-wrap">
+      <div class="video">
+        <video controls src="./video/meeting/MVI_8906.MP4"></video>
+   </div>
+</div>  
+ </div>
+
+</div>
+
+    
+
+    <div class="smallcontactcontainer">
+      <div class="smallcontactmaindiv">
+        <div class="smallcontactleft"><p>
+          The combination of your world-class team with
+          ours is a win-win situation
+          </p></div>
+        <div class="smallcontactleft">
+          <a href="./contact.html">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Contact Us</span>
+            </button>
+          </a></div>
+      </div>
+    </div>
+
+
+    <footer></footer>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
     <script src="./scripts/script.js"></script>
     <script type="module" src="./scripts/componantImport.js"></script>
     <script src="./scripts/progressScrollbar.js"></script>
+    <script src="./gsap/cursor.js"></script>
+    <script src="./scripts/gallery.js"></script>
   </body>
 </html>

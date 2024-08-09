@@ -1,0 +1,71 @@
+.privacycont{
+     width: 100%;
+     height: auto;
+     padding: 10vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.privacydiv{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     /* align-items: center; */
+}
+
+.privacydiv div{
+     margin-bottom: 60px;
+}
+
+.privacycont h2{
+     font-size: 30px;
+}
+
+.privacycont h3{
+     font-size: 25px;
+     padding: 20px;
+}
+
+.privacycont p{
+     font-size: 20px;
+     padding: 20px;
+     text-align: justify;
+     color: rgb(67, 67, 67);
+}
+
+.privacycont li{
+     list-style: none;
+     text-align: justify;
+     padding: 0px 0px 10px 20px;
+     font-size: 20px;
+     color: rgb(67, 67, 67);
+}
+
+@media screen and (min-width: 300px) and (max-width:500px){
+     .privacycont{
+          width: 100% !important;
+          /* border: 2px solid red; */
+     }
+     .privacydiv{
+          max-width: 500px;
+          min-width: 300px;
+          margin: 0 !important;
+          padding-right: 10px;
+          /* border: 2px solid green; */
+     }
+     .privacycont h2{
+          font-size: 25px;
+     }
+     .privacycont h3{
+          font-size: 20px;
+     }
+     .privacycont p{
+          font-size: 18px;
+          padding-right: 10px;
+     }
+     .privacycont li{
+          font-size: 18px;
+          padding-right: 10px;
+     }
+}
